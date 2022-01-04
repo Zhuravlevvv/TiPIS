@@ -17,6 +17,7 @@ namespace LabTiPIS
         int? ID = null;
         public int IdApplication { set { IdApplication = value; } }
 
+
         String selectAllCommand = "Select* from SaleOfApplication";
         public FormSaleOnApplication(int ID)
         {
